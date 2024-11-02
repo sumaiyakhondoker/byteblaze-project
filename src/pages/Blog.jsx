@@ -32,7 +32,7 @@ if(navigation.state === 'loading')return <Loader></Loader>
           </h1>
           <div className="flex flex-col items-start justify-between w-full md:flex-row md:items-center dark:text-gray-600">
             <p className="text-sm">
-              {reading_time_minutes} minutes •{" "}
+              {reading_time_minutes} min read •{" "}
               {new Date(published_at).toLocaleDateString()}
             </p>
 
